@@ -20,7 +20,7 @@ export default async function handler(req, res) {
         body: JSON.stringify({
           data: [
             {
-              event_name: "CompleteRegistration",
+              event_name: "Subscribe",
               event_time: Math.floor(Date.now() / 1000),
               action_source: "website",
               event_source_url: event_source_url || "",
